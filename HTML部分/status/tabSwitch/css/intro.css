@@ -1,0 +1,85 @@
+.com-intro {
+    height: 645px;
+    background: #f8f8f8;    
+}
+h1 {
+    text-align: center;
+    padding-top: 25px;
+    font-weight: normal;
+    position: relative;
+}
+h1:before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    margin-left: -20px;
+}
+p {
+    color: #797d91;
+}
+.com-intro p:nth-of-type(1) {
+    width: 490px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.intro-flex {
+    width: 700px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.com-intro p:nth-of-type(2) {
+    width: 700px;
+    margin: 30px auto;
+}
+.com-intro p:nth-of-type(3) {
+    width: 700px;
+    margin: 20px auto;
+}
+/* 公司发展时间线 */
+.com-develop {
+    height: 960px;
+    position: relative;
+}
+.com-develop img {
+    position: absolute;
+    left: 50%;
+    margin-left: -372px;
+    margin-top: 20px;
+}
+/* 企业文化 */
+.com-culture {
+    background: #f8f8f8;
+    height: 620px;
+}
+.com-culture p {
+    padding-top: 40px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+.com-culture img {
+    display: block;
+    margin: 20px auto;
+}
+/* 加入我们 */
+.com-joinus {
+    height: 345px;
+}
+.com-joinus .joinus-img {
+    width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.us {
+    width: 360px;
+    text-align: center;       /*歪日...*/
+}
